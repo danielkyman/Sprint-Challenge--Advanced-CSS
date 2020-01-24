@@ -11,13 +11,27 @@
     border:1px double @nav-border;
     border-radius: 10px;
 
+    @media @phone{
+        margin:10px auto;
+
+    }
+
     h1{
         font-size: 5rem;
         margin-bottom: 10px;
+
+        @media @phone{
+            font-size: 4rem;
+
+        }
     }
 
     nav{
         font-size: 2.5rem;
+
+        @media @phone{
+            font-size: 2rem;
+        }
 
         a{
             text-decoration: none;
