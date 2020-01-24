@@ -1,1 +1,29 @@
 // Navigation code here
+
+
+.nav{
+    .flex(column);
+    color: @nav-font;
+    background-color: @nav-bg;
+    max-width: 800px;
+    width: 100%;
+    margin:20px auto;
+    border:1px double @nav-border;
+    border-radius: 10px;
+
+    h1{
+        font-size: 5rem;
+        margin-bottom: 10px;
+    }
+
+    nav{
+        font-size: 2.5rem;
+
+        a{
+            text-decoration: none;
+            color: @nav-font;
+            margin: 10px;
+        }
+    }
+
+}
